@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "TimeZonesApiRuby/version"
+require_relative "TimeZonesApi/version"
 
-module TimeZonesApiRuby
+module TimeZonesApi
   class Error < StandardError; end
   # Your code goes here...
 end
