@@ -49,8 +49,8 @@ module TimeZonesApi
   end
 
   def validate!(latitude, longitude)
-    raise TimeZoneApiError, "No latitude provided" if latitude.blank?
-    raise TimeZoneApiError, "No longitude provided" if longitude.blank?
+    raise TimeZoneApiError, "No latitude provided" if latitude.nil?
+    raise TimeZoneApiError, "No longitude provided" if longitude.nil?
     raise TimeZoneApiError, "Invalid longitude provided (-180 < long < 180)" unless valid_longitude?(longitude)
     raise TimeZoneApiError, "Invalid latitude provided (-90 < lat < 90)" unless valid_latitude?(latitude)
   end
