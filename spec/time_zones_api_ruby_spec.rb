@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe TimeZonesApi do
+RSpec.describe TimeZonesApiRuby do
   it "has a version number" do
-    expect(TimeZonesApi::VERSION).not_to be nil
+    expect(TimeZonesApiRuby::VERSION).not_to be nil
   end
 
   it "does something useful" do

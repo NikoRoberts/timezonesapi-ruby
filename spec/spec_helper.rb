@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "TimeZonesApi"
+require "time_zones_api_ruby"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

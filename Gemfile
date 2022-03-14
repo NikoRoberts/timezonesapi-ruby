@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in TimeZonesApi.gemspec
+# Specify your gem's dependencies in time_zones_api_ruby.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
