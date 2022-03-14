@@ -4,7 +4,7 @@ require_relative "lib/time_zones_api/version"
 
 Gem::Specification.new do |spec|
   spec.name = "time_zones_api"
-  spec.version = TimeZonesApiRuby::VERSION
+  spec.version = TimeZonesApi::VERSION
   spec.authors = ["Niko Roberts"]
   spec.email = ["niko@tasboa.com"]
 
