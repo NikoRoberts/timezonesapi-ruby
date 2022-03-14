@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "lib/time_zones_api_ruby/version"
+require_relative "lib/time_zones_api/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "time_zones_api_ruby"
+  spec.name = "time_zones_api"
   spec.version = TimeZonesApiRuby::VERSION
   spec.authors = ["Niko Roberts"]
   spec.email = ["niko@tasboa.com"]
